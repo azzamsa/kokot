@@ -15,26 +15,23 @@ points:
       columns:
         outer:
           rows:
-            mod.skip: true
             bottom.skip: true
             top.skip: true
+            home:
+              key:
+                width: 1.5ky
+                rotate: 60
         pinky:
-          rows.mod.skip: true
           key.stagger: 0
         ring:
-          rows.mod.skip: true
           key.stagger: 10
         middle:
-          rows.mod.skip: true
           key.stagger: 6.5
         index:
-          rows.mod.skip: true
           key.stagger: -6.5
         inner:
-          rows.mod.skip: true
           key.stagger: -2.5
       rows:
-        mod:
         bottom:
         home:
         top:
@@ -44,17 +41,17 @@ points:
         padding: 1ky
         spread: 1kx
       anchor:
-        ref: matrix_inner_mod
-        shift: [-4, -4]
+        ref: matrix_inner_bottom
+        shift: [-4.7, -21.7]
       columns:
         inner:
         middle:
           key:
-            splay: -10
-            shift: [2, -1.5]
+            shift: [20.9 - ky, -1.27]
+            rotate: -10
         outer:
           key:
-            splay: -20
-            shift: [6, -3]
+            shift: [41.2 - 2ky, -6.9]
+            rotate: -23
       rows:
         cluster:
